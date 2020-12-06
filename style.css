@@ -246,7 +246,7 @@ img[src="mainimages/me2.jpg"]:hover{
         
     }
     
-/*
+
     .wildlife{
         border: 0.5em solid rgb(41, 41, 41);
         margin-top:14em;
@@ -268,28 +268,7 @@ img[src="mainimages/me2.jpg"]:hover{
         background-position:center;
         background-size:100%;
     }
-    */
-        .wildlife{
-        border: 0.5em solid rgb(41, 41, 41);
-        margin-top:14em;
-        margin-right:0vw;
-        width:60vw;
-        height:60vw;
-        background-image:url("mainimages/wildlife.jpg");
-        background-position:center;
-        background-size:100%;
-    
-    }
-    .portraits{
-        border: 0.5em solid rgb(41, 41, 41);
-        margin-top:6em;
-        margin-left:0vw;
-        width:60vw;
-        height:60vw;
-        background-image:url("mainimages/portraits.jpg");
-        background-position:center;
-        background-size:100%;
-    }
+
     .gallerymain .img{
         display:flex;
         width:50vw;
