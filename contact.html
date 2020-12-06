@@ -1,0 +1,68 @@
+<!doctype html>
+<html>
+	<head>
+		<link rel="stylesheet" href="style.css">
+		<title>Cost Calc</title>
+	</head>
+	<body>
+        <nav>
+            <p class="title">Aidan Harris</p>
+            <ul>
+                <li class="navmain"><a href="index.html">Home</a></li>
+                <li class="navmain"><a href="gallery.html">Gallery</a></li>
+                <li class="navmain"><a href="employment.html">Employment</a></li>
+                <li class="navmain"><a href="contact.html">Cost Calc</a></li>
+            </ul>
+            </nav>
+            <div class="buyinfo">
+                <h1>Price Calculator</h1>
+                <h2>Input your total image quantity and what size to get an instant calculation of your total!</h2>
+            </div>
+            <form>
+                <fieldset>
+                <label>Image Quantity   <input type="number" id="amount"></label>
+
+                <label for="size">Pick a Size</label>
+                    <select id="size">
+                        <option value="10.99">Small</option>
+                        <option value="19.99">Medium</option>
+                        <option value="29.99">Large</option>
+                    </select>
+                    <input type="submit" value="Calculate" onclick="calculate()">
+            </fieldset>
+               
+            </form>
+            <script>
+            function calculate(){
+                var amount = document.getElementById('amount').value;
+                var size = document.getElementById('size').value;
+                alert(amount*size+ ' CAD');
+            }
+        </script>
+              <!----
+               
+               
+                <fieldset>
+                <label>Image Quantity   <input type="number" id="amount"></label>
+                <label for="size">Image Size (Pick One)</label>
+                <select id="size" name="size">
+                    <option value="10.99">Small</option>
+                    <option value="19.99">Medium</option>
+                    <option value="39.99">Large</option>
+                    </select>
+                </fieldset>
+                <input type="submit" value="Calculate" onclick="calculate()">
+                <script>
+                    function calculate(){
+                        var size = document.getElementById('size').value;
+                        var amount = document.getElementById('amount').value;
+                        var cad = Text(" CAD");
+                        alert(amount*size);
+                    }
+
+                </script>
+           
+            </form>
+        -->
+	</body>
+</html>

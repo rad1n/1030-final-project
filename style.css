@@ -1,0 +1,556 @@
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:wght@600&family=Work+Sans:wght@300&display=swap');
+
+body{
+    font-family:'Work Sans', light;
+    border:border-box;
+    margin:0;
+    border:0;
+
+}
+
+
+.gallerylayout{
+    display:flex;
+    padding-top:10em;
+}
+
+
+.wlimages{
+
+    text-align:center;
+    order:0;
+    box-sizing:borderbox;
+    justify-content:space-evenly;
+    max-width:100vw;
+}
+
+
+.poimages{
+    text-align:center;
+}
+
+.experience{
+    padding-top:10em;
+
+    width:100vw;
+}
+
+
+img[src="employment/animalhospital.jpg"]{
+    width:100%;
+
+}
+.ah2{
+    text-align:left;
+}
+
+ul .atext{
+    margin-left:7vw;
+    text-align:left;
+    font-size:1.5em;
+}
+
+.aheader{
+    padding-left:5vw;
+    font-size:3em;
+}
+
+img[src="employment/volunteer.jpg"]{
+    width:100%;
+
+}
+
+
+img[src="employment/deltaview.jpg"]{
+    width:100%;
+
+}
+
+form{
+    padding-top:10em;
+    padding-left:2vw;
+    padding-right:2vw;
+}
+
+fieldset{
+    margin-bottom:5vw;
+}
+label{
+    font-size:2em;
+    padding-left:5vw;
+}
+.buyinfo{
+    margin-top:10em;
+    margin-left:2vw;
+}
+
+
+@media only screen and (min-width:930px){
+    nav{
+        border-bottom: 0.2em darkgrey solid;
+        position:fixed;
+        width:100%;
+        background-image:url(mainimages/background.jpg);
+        background-size:cover;
+        top:0;
+        
+    }
+        a:link{
+        color:black;
+        text-decoration:none;
+    }
+    a:visited{
+        color:black;
+        text-decoration:none;
+    
+    }
+    a:hover{
+        text-shadow: 0 0 1px black;
+    }
+    .title{
+        font-family:'Crimson Text';
+    }
+    section{
+        margin-top:0vw;
+    }
+    nav ul{
+
+        color:black;
+        display:flex;
+        box-sizing:border-box;
+        flex-direction:row;
+        justify-content:flex-start;
+        list-style:none;
+        align-items:center;
+        margin:0;
+        padding:0;
+        flex-wrap:wrap;
+        padding-top: calc(1em + 1vw);
+    }
+    
+    ul .navmain{
+  
+        color:black;
+        padding-left:0vw;
+        font-size:calc(2em + 0.5vw);
+        margin-left:5vw;
+        align-items:center;
+    }
+    
+    .title{
+        padding-top:0.5vw;
+        float:left;
+        padding-left:2vw;
+        padding-right:2vw;
+        font-size:calc(2em + 1vw);
+        margin:0;
+        align-items:center;
+        max-width:10vw;
+        
+    }
+    
+    
+img[src="mainimages/me2.jpg"]{
+    background-image:"mainimages/mehover.jpg";
+    padding:0;
+    margin:0;
+    height:100%;
+    width:auto;
+    transition:opacity 1s;
+}
+img[src="mainimages/me2.jpg"]:hover{
+    background-color:black;
+    opacity:0.3;
+    padding:0;
+    margin:0;
+    height:100%;
+    width:auto;
+    transition:opacity 1s;
+}
+    .main1{
+        background-color:black;
+        order:0;
+        height:80vh;
+        min-height:10em;
+}
+.main{
+    display:flex;
+    padding-top:10vw;
+    margin-bottom:10vw;
+    padding-right:8vw;
+
+}
+
+
+    .metitle{
+        font-family:'Crimson Text';
+        font-size:calc(2em + 2.5vw);
+        padding-left:1vw;
+        
+    }
+    .metitle1{
+        font-size:calc(1.5em + 1vw);
+        padding-left:1vw;
+    }
+    .mebody{
+        font-size:1.3em;
+        padding-left:1vw;
+    }
+
+
+    .hovertop1{
+        width:100%;
+        height:100%;
+        opacity:0;
+        color:white;
+        padding-top:45%;
+        text-align:center;
+        font-size:2em;
+    }
+    .hovertop2{
+        width:100%;
+        height:100%;
+        opacity:0;
+        color:white;
+        padding-top:45%;
+        text-align:center;
+        font-size:2em;
+        
+    }
+    
+    .hovertop1:hover{
+        opacity:1;
+        transition:0.5s;
+    }
+    .hovertop2:hover{
+        opacity:1;
+        transition:0.5s;
+    }
+    .hovertop1 a{
+        color:white;
+    }
+    .hovertop2 a{
+        color:white;
+    }
+    
+
+
+
+
+    .gallerymain{
+        justify-content:center;
+        display:flex;
+        width:100%;
+        padding-bottom:4em;
+        border-bottom:0.7em solid darkgrey;
+        
+    }
+    
+
+    .wildlife{
+        border: 0.5em solid rgb(41, 41, 41);
+        margin-top:14em;
+        margin-right:5vw;
+        width:30vw;
+        height:30vw;
+        background-image:url("mainimages/wildlife.jpg");
+        background-position:center;
+        background-size:100%;
+    
+    }
+    .portraits{
+        border: 0.5em solid rgb(41, 41, 41);
+        margin-top:14em;
+        margin-left:5vw;
+        width:30vw;
+        height:30vw;
+        background-image:url("mainimages/portraits.jpg");
+        background-position:center;
+        background-size:100%;
+    }
+    
+    .gallerymain .img{
+        display:flex;
+        width:50vw;
+        
+    }
+    .wl{
+        width:30vw;
+        margin:1vw;
+    }
+    .po{
+        height:30vw;
+        margin:1vw;
+    }
+    .ah1{
+        width:50vw;
+    }
+    .animalhospital{
+        padding-bottom:1.5em;
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        border-bottom:0.5em solid darkgrey;
+    
+    }
+    .dcas{
+        padding-top:1.5em;
+        padding-bottom:1.5em;
+        display:flex;
+        width:100%;
+        flex-direction:row;
+        border-bottom:0.5em solid darkgrey;
+    }
+    .dcas1{
+        width:50vw;
+    }
+    .deltaview{
+        padding-top:1.5em;
+        padding-bottom:1.5em;
+        width: 100%;
+        display:flex;
+        flex-direction:row;
+    
+    }
+    .dv1{
+        width:50vw;
+    }
+}
+
+@media only screen and (max-width:929px){
+    nav{
+        border-bottom: 0.2em darkgrey solid;
+        position:fixed;
+        width:100%;
+        background-image:url(mainimages/background.jpg);
+        background-size:cover;
+        top:0;
+        
+    }
+        a:link{
+        color:black;
+        text-decoration:none;
+    }
+    a:visited{
+        color:black;
+        text-decoration:none;
+    
+    }
+    a:hover{
+        text-shadow: 0 0 1px black;
+    }
+    .title{
+        font-family:'Crimson Text';
+    }
+    section{
+        margin-top:0vw;
+    }
+    nav ul{
+        color:black;
+        display:flex;
+        box-sizing:border-box;
+        flex-direction:row;
+        justify-content:flex-start;
+        list-style:none;
+        align-items:center;
+        margin:0;
+        padding:0;
+        flex-wrap:wrap;
+        padding-top: calc(1em + 1vw);
+    }
+    
+    ul .navmain{
+        color:black;
+        padding-left:5vw;
+        font-size:calc(2em + 0.5vw);
+        margin:0;
+        align-items:center;
+    }
+     
+    .title{
+        padding-top:0.5vw;
+        text-align:center;
+        left:50%;
+        right:50%;
+        font-size:calc(2em + 1vw);
+        margin:0;
+        align-items:center;
+        max-width:100vw;
+        
+    }
+
+    
+.main{
+    flex-direction:column;
+    box-sizing: border-box;
+    display:flex;
+    padding-top:10vh;
+    padding-bottom:40em;
+    padding-right:8vw;
+    border-bottom:1vh solid lightgrey;
+    
+
+}
+.main1{
+    box-sizing:border-box;
+    background-color:white;
+    order:0;
+    height:60vh;
+    min-height:10em;
+    padding-bottom:20vw;
+}
+
+    img[src="mainimages/me2.jpg"]{
+        height:auto;
+        width:80vw;
+        padding-top:10vh;
+        padding-bottom:10vh;
+        float:none;
+    }
+    .main2{
+        padding-top:50vw;
+        width:80vh;
+
+        padding-right:1vh;
+    }
+
+    .metitle{
+        font-family:'Crimson Text';
+        font-size:calc(2em + 2.5vw);
+        padding-left:1vw;
+
+
+        
+    }
+    .metitle1{
+        font-size:calc(1.5em + 1vw);
+        padding-left:1vw;
+
+    }
+    .mebody{
+        font-size:1.3em;
+        padding-left:1vw;
+
+
+        width:80vw;
+    }
+
+
+    .hovertop1{
+        width:100%;
+        height:100%;
+        opacity:0;
+        color:white;
+        padding-top:45%;
+        text-align:center;
+        font-size:2em;
+    }
+    .hovertop2{
+        width:100%;
+        height:100%;
+        opacity:0;
+        color:white;
+        padding-top:45%;
+        text-align:center;
+        font-size:2em;
+        
+    }
+    
+    .hovertop1:hover{
+        opacity:1;
+        transition:0.5s;
+    }
+    .hovertop2:hover{
+        opacity:1;
+        transition:0.5s;
+    }
+    .hovertop1 a{
+        color:white;
+    }
+    .hovertop2 a{
+        color:white;
+    }
+    
+
+    .gallerymain{
+        display:flex;
+        justify-content:center;
+        flex-direction:column;
+        align-items: center;
+        width:100%;
+        padding-bottom:4em;
+        border-bottom:0.7em solid darkgrey;
+        
+    }
+    
+
+    .wildlife{
+        border: 0.5em solid rgb(41, 41, 41);
+        margin-top:14em;
+        margin-right:0vw;
+        width:60vw;
+        height:60vw;
+        background-image:url("mainimages/wildlife.jpg");
+        background-position:center;
+        background-size:100%;
+    
+    }
+    .portraits{
+        border: 0.5em solid rgb(41, 41, 41);
+        margin-top:6em;
+        margin-left:0vw;
+        width:60vw;
+        height:60vw;
+        background-image:url("mainimages/portraits.jpg");
+        background-position:center;
+        background-size:100%;
+    }
+    
+    .gallerymain .img{
+        display:flex;
+        width:50vw;
+        
+    }
+    .wl{
+        width:70vw;
+        margin:1vw;
+    }
+    
+    .po{
+        height:70vw;
+        margin:1vw;
+    }
+    .ah1{
+        width:80vw;
+    }
+    .animalhospital{
+        padding-bottom:1.5em;
+        width:100%;
+        display:flex;
+        flex-direction:column;
+        border-bottom:0.5em solid darkgrey;
+    
+    }
+    .dcas{
+        padding-top:1.5em;
+        padding-bottom:1.5em;
+        display:flex;
+        width:100%;
+        flex-direction:column;
+        border-bottom:0.5em solid darkgrey;
+    }
+    .dcas1{
+        width:80vw;
+    }
+    .deltaview{
+        padding-top:1.5em;
+        padding-bottom:1.5em;
+        width: 100%;
+        display:flex;
+        flex-direction:column;
+    
+    }
+    .dv1{
+        width:80vw;
+    }
+}
